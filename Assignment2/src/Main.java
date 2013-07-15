@@ -9,15 +9,15 @@ public class Main {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		LinkedListString hello = new LinkedListString("");
+		LinkedListString hello = new LinkedListString("HelloWorld");
 		System.out.println(hello);
-//		System.out.println(hello.indexOf("l"));
-//		System.out.println(hello.indexOf("l", 3));
-//		System.out.println(hello.subString(1));
-//		System.out.println(hello.subString(2, 3));
-//		hello.insert("i", 0);
-//		System.out.println(hello);
-//		System.out.println(hello.size());
+		System.out.println(hello.indexOf("l"));
+		System.out.println(hello.indexOf("l", 3));
+		System.out.println(hello.subString(1));
+		System.out.println(hello.subString(2, 3));
+		hello.insert("i", 0);
+		System.out.println(hello);
+		System.out.println(hello.size());
 		
 		File f = new File("src/testfile.txt");
 		LinkedListString hello1 = new LinkedListString(f);
@@ -45,9 +45,3 @@ public class Main {
 	}
 
 }
-
-/*TODO:
-	ask about design of LinkedListtring, specifically subString and search methods
-	Number class
-	main for testing
-*/
